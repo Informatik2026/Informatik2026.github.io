@@ -1,45 +1,215 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-    <meta charset="UTF-8">
-    <title>Mit yndlingsfag</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luksusgenbrugsbutik</title>
+
+  <style>
+    body {
+      margin: 0;
+      background-color: linen;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 70px;
+      padding: 60px 0;
+      background-image: url('mønster-billede.jpg'); /* Sti til dit mønsterbillede */
+      
+}
+  
+
+    .celle1 {
+      width: 615px;
+      padding: 20px;
+      height:110px;
+      border: 8px solid indianred;
+      text-align: center;
+      font-size: 23px;
+      background-color:linen;
+      font-family: border-radius;
+    }
+
+    .celle2 {
+      width: 520px;
+      border: 3px solid indianred;
+      background-color: linen;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .titel {
+      width: 100%;
+      background-color: indianred;
+      padding: 10px 0;
+    }
+
+    .titel h2 {
+      margin: 0;
+    }
+
+    .indhold {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+
+ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    a {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+  
+
+    /* NY KNAP */
+    .tiltop {
+      position: fixed;
+      bottom: 60px;
+      right: 80px;
+      padding: 12px 18px;
+      border: 4px solid indianred;
+      background-color: lightcoral;
+      color: black;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
 </head>
+
 <body>
 
- <h1>Mit yndlingsfag: engelsk</h1>
+<!-- ANKER TIL TOPPEN -->
+<div id="top"></div>
 
-<p>
-Jeg kan godt lide engelsk, fordi jeg synes, at det er <strong>spændende</strong>  
-</p>
+<div class="container">
 
-<p>
-I engelsk arbejder vi ofte med grammatik, litteratur og tekstanalyse. 
-</p>
+    <div class="celle1">
+      <h1>Vintagebutikker</h1>
+    </div>
 
-<p>
-Vi er <em>kun otte</em> på vores engelskhold, så det er meget <strong>hyggeligt</strong>.
-</p>
+    <!-- CRUSH -->
+    <div class="celle2">
+      <div class="titel">
+        <h2>Crush</h2>
+      </div>
+      <div class="indhold">
+        <a href="https://crushvintage.eu" target="_blank">Gå til Crush hjemmeside</a>
+        <img src="Crush.jpg" width="300" height="230" alt="Crush">
+        <ul>
+          <li>Nørrebrogade 5, 2200 København</li>
+          <li>Åbningstider: man–lør 10–18, søndag 12–17</li>
+        </ul>
+      </div>
+    </div>
 
- <h1>Om mig</h1>
+    <!-- VINTAGE 199 -->
+    <div class="celle2">
+      <div class="titel">
+        <h2>Vintage 199</h2>
+      </div>
+      <div class="indhold">
+        <a href="https://www.instagram.com/vintage199/?hl=da" target="_blank">
+          Gå til Vintage 199 Instagram
+        </a>
+        <img src="Vintage 199.jpg" width="300" height="230" alt="Vintage 199">
+        <ul>
+          <li>Jagtvej 199, 2100 København Ø</li>
+          <li>Åbningstider: tirs–fre 11–18, lørdag 11–15</li>
+        </ul>
+      </div>
+    </div>
 
-    <h2>Hvad hedder jeg og hvor gammel er jeg?</h2>
-    <p>
-        Jeg hedder Sofie, og jeg er <strong>18</strong> år <em>gammel</em>.
-    </p>
+    <!-- PRAG -->
+    <div class="celle2">
+      <div class="titel">
+        <h2>Prag</h2>
+      </div>
+      <div class="indhold">
+        <a href="https://pragcopenhagen.com" target="_blank">Gå til Prag hjemmeside</a>
+        <img src="Prag.jpg" width="300" height="230" alt="Prag">
+        <ul>
+          <li>Vesterbrogade 98A KBH V</li>
+          <li>Nørrebrogade 45 KBH N</li>
+          <li>Vestergade 10 KBH K</li>
+          <li>Nørregade 55 Aarhus C</li>
+          <li>Amager Centret KBH S</li>
+          <li>Østerbrogade 82 KBH Ø</li>
+          <li>Åbningstider varierer fra butik til butik</li>
+        </ul>
+      </div>
+    </div>
 
-    <h3>Mine interesser</h3>
-    <p>
-        I min fritid spiller jeg klaver og boulder.<br>
-        Bouldering er når man klatrer på vægge.
-    </p>
+    <!-- BAUBAU -->
+    <div class="celle2">
+      <div class="titel">
+        <h2>Baubau</h2>
+      </div>
+      <div class="indhold">
+        <a href="https://www.instagram.com/baubaushop/?hl=da" target="_blank">
+          Gå til Baubau Instagram
+        </a>
+        <img src="Baubau.jpg" width="300" height="230" alt="Baubau">
+        <ul>
+          <li>Birkegade 3, 2200 København</li>
+          <li>Åbningstider: ons-tor 11:30 til 17, onsdag 11:30-16</li>
+        </ul>
+      </div>
+    </div>
 
-<img src="CRAZY-WORDLE.png" alt="en skør wordle i første forsøg" width="1272" height="1264">
+    <div class="celle2"> 
+      <div class="titel"> 
+        <h2> All Time Vintage </h2>
+      </div> 
+      <div class="indhold">
+        <a href="https://www.instagram.com/alltimevintageaarhus/?hl=da" target="_blank">
+          Gå til All Time Vintage instagram
+        </a>
+        <img src="All Time Vintage.jpg" height="230" width="300">
+        <ul>
+          <li>Nørregade 42, 8000 Århus<li/>
+          <li>Åbningstider: Man-fre 11.00-17.30, Lørdag 11.00 - 16.00<li/>
+        </ul>
+      </div>
+    </div>
 
-<p>
-<a href="https://www.nytimes.com"<besøg wordle</a>
-</p>
+    <div class="celle2"> 
+      <div class="titel"> 
+        <h2> Dahl Falken </h2>
+      </div> 
+      <div class="indhold">
+        <a href=""https://www.facebook.com/DahlFalkenInterior/?locale=da_DK" target="_blank">
+          Gå til Dahl Falken facebook
+        </a>
+        <img src="Dahl Franken.jpg" height="230" width="300">
+        <ul>
+          <li>Nedergade 26 1. tv. 5000 Odense<li/>
+          <li>Åbningstider: Ons-Søn 11-17<li/>
+        </ul>
+      </div>
+    </div>
+
+</div>
+
+<!-- KNAP TIL TOPPEN -->
+<a href="#top" class="tiltop">Klik for at gå til toppen</a>
 
 </body>
 </html>
-
-
